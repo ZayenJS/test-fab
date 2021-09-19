@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Test javascript</title>
+      <h1>Test javascript.</h1>
+      <style>
+         #outer {
+         margin: 0 auto;
+         width:90%;
+         }
+         #inner {
+         margin-left:1%;
+         margin-right:-1%;
+         }
+      </style>
+   </head>
+   <body>
+      <p>Tout au long de ce test, nous vous demanderons de construire le fichier <u>test.js</u> à votre guise afin qu'il s'intégre correctement avec le fichier <u>test.html</u>.
+         <br />Le fichier <u>test.html</u> ne devra pas être modifié, vous pourrez cependant le consulter.
+		 <br />La réutilisation du code et sa qualité seront pris en compte lors de la correction.
+		 <br />L'optimisation et la performance des algorithmes seront également pris en compte lors de la correction.
+		 <br />Vous êtes libres de choisir l'implémentation qui vous semble la plus adaptée tout au long des questions.
+         <br />
+         <br /> Soit le texte suivant :
+      </p>
+      <div id="outer">
+         <div id="inner">
+            ________________<br/><br/>Qu'est-ce que le Lorem-Ipsum?;<br/>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.Le Lorem - Ipsum est le faux texte standard de l'imprimerie depuis les années 1500: quand un imprimeur anonyme assembla ensemble<br/>des morceaux de texte pour réaliser un livre spécimen de polices de texte.Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié.<br/><br/>///////////// Utilisation : //////////<br/><br/>Pourquoi l'utiliser?<br/>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions &amp; empêche de se concentrer sur la mise en page elle - même.L'avantage du Lorem-Ipsum sur un texte générique comme "Du texte.Du texte.<br/>Du texte." est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard.De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem - Ipsum leur faux texte par défaut,<br/>et une recherche pour 'Lorem-Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction.Plusieurs versions sont apparues avec le temps, parfois par accident,<br/>souvent intentionnellement(histoire d'y rajouter de petits clins d'œil, voire des phrases embarrassantes).<br/><br/>///////////////////////<br/><br/>D'où vient-il?<br/>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire; il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans! Un professeur du Hampden-Sydney College, <br/>en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum.<br/>Il provient en fait des sections 1.10.32 et 1.10.33 du ";De Finibus Bonorum &amp; Malorum";(Des Suprêmes Biens &amp; des Suprêmes Maux) de Cicéron.Cet ouvrage, très populaire pendant la Renaissance, est un traité sur la théorie de l'éthique. <br/>Les premières lignes du Lorem Ipsum; "Lorem ipsum dolor sit amet..."; proviennent de la section 1.10.32.<br/><br/>_____
+         </div>
+      </div>
+      <p>
+         <br />
+         <br />
+         <br/><b>Question 1 :</b> Proposer un code permettant de retourner le nombre de lignes contenant du texte.
+         <br /><u>Remarque :</u> Le formatage du texte affiché à l'écran étant différent pour chacun, il se peut que le nombre de lignes affichés à l'écran ne soit pas fidèle.
+         <br/><br/><b>Question 2 :</b>Proposer un code permettant de retourner le nombre de lignes non-vide et de lignes vides contenus dans le texte.
+         <br/><br/><b>Question 3 :</b> Proposer un code permettant de retourner le nombre de mots contenus dans le texte.
+         <br/><br/><b>Question 4 :</b> Proposer un code permettant de trier les mots par nombre croissant de caractère. Il faudra ensuite afficher chaque mots de la même taille ensemble sur une même ligne et les trier par ordre alphabétique.
+         <br/><u>Indication</u> : N'oubliez pas de retirer tous les caractères qui vous semblent indésirables.
+         <br/><u>Exemple</u> :
+      <div id="outer">
+         <div id="inner">
+            a, b, c, d
+            <br/> aa, bb, cc, dd
+            <br/> aaa, bbb, ccc, ddd
+            <br/> aaaa, bbbb, cccc, dddd
+         </div>
+      </div>
+      <br/><br/>
+      <p>
+      <b>Question bonus :</b> Proposer un code permettant de retourne le texte d’origine en y ajoutant un espace avant chaque ponctuation double (ponctutation sur deux étages, par exemple "!" ou encore ":");
+      </p>
+      <script type="text/javascript" src="test.js"></script>
+      <!-- <script>
+         var text = document.getElementById("inner").innerText;
+         document.write("____________________________________________________________________________________________________________________________________________________________________________________________________________________________");
+         document.write("<h1> Question 1 : </h1>Il y a " +fonction_question1(text) +" lignes contenant du texte.<br/>");
+         document.write("<br/><h1> Question 2 : </h1>Il y a " +fonction_question2(text) +"<br/>");
+         document.write("<br/><h1> Question 3 : </h1>Il y a " +fonction_question3(text) +" mots contenus dans le texte.<br/>");
+         document.write("<br/><h1> Question 4 : </h1>Voici les mots triés : <br/><div id=\"outer\"><div id=\"inner\">" +fonction_question4(text) +"</div></div>");
+         document.write("<br/><h1> Question Bonus : </h1>Voici le texte modifié : <br/><div id=\"outer\"><div id=\"inner\">" +fonction_questionBonus(text) +"</div></div>");
+      </script> -->
+   </body>
+</html>
